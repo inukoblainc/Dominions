@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Dominion Deck Picker</title>
+  <style type="text/css">
+    canvas { }
+  </style>
+  </head>
+  <body>
+  
+<p>Click the Dominion sets that you wish to play with .</p>
+
+<label><input type="checkbox" onclick="basebutton()">Base Set</label>
+
+<label><input type = "checkbox" onclick="intbutton()">Intrigue</label>
+
+<label><input type = "checkbox"  onclick="seabutton()">Seaside</label>
+
+<label><input type = "checkbox" onclick="alcbutton()">Alchemy</label>
+
+<label><input type = "checkbox" onclick="probutton()">Prosperity</label>
+
+<label><input type = "checkbox"  onclick="cornbutton()">Cornucopia</label>
+
+<label><input type = "checkbox" onclick="hinbutton()">Hinterlands</label>
+
+<label><input type = "checkbox" onclick="darbutton()">Dark Ages</label>
+
+<label><input type = "checkbox"  onclick="guibutton()">Guilds</label>
+<br>
+<button onclick= "startgame()">Shuffle decks</button>
+</p>
+
+    <canvas id="dominion" width="2000" height="1500"></canvas>
+  </body>
+  <script src="dominion.js"></script>
+
+</html>
